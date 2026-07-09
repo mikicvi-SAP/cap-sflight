@@ -21,7 +21,7 @@
     "@cap-js/hana": ">=3",
     "@sap/cds": ">=10",
     "@sap/xssec": "^4",
-    "express": "^4.22.2"
+    "express": "^5"
   },
   "devDependencies": {
     "@cap-js/cds-test": "^1.0.1",
@@ -31,7 +31,6 @@
     "@sap/cds-dk": ">=10",
     "@sap/ux-specification": "UI5-1.144",
     "@types/jest": "^30.0.0",
-    "axios": "^1.18.1",
     "cds-plugin-ui5": "^0.17.0",
     "cross-spawn": "^7.0.3",
     "eslint": "^9 || ^10",

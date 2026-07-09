@@ -1,10 +1,10 @@
 import cds from '@sap/cds'
 import { Travel } from '#cds-models/TravelService'
-const { GET, POST, PATCH, axios, expect } = cds.test(__dirname+'/..')
+const { GET, POST, PATCH, defaults, expect } = cds.test(__dirname+'/..')
 const EDIT = (url: string) => POST (url+'/TravelService.draftEdit',{})
 const SAVE = (url: string) => POST (url+'/TravelService.draftActivate')
 
-axios.defaults.auth = { username: 'alice', password: 'admin' }
+defaults.auth = { username: 'alice', password: 'admin' }
 
 describe ("Basic Querying", () => {
 
