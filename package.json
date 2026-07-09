@@ -31,6 +31,8 @@
     "@sap/cds-dk": ">=10",
     "@sap/ux-specification": "UI5-1.144",
     "@types/jest": "^30.0.0",
+    "@ui5/cli": "^4.0.57",
+    "axios": "^1.18.1",
     "cds-plugin-ui5": "^0.17.0",
     "cross-spawn": "^7.0.3",
     "eslint": "^9 || ^10",
